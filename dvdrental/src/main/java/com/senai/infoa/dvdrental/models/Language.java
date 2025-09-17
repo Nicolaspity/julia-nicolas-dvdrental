@@ -1,6 +1,10 @@
 package com.senai.infoa.dvdrental.models;
-import java.time.LocalDateTime;
+import java.security.Timestamp;
 
 public class Language {
     
+    int languageId;
+    String name;
+    Timestamp lastUpdate;
+
 }

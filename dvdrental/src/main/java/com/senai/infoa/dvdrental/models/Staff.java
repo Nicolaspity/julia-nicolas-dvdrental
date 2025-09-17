@@ -1,4 +1,5 @@
 package com.senai.infoa.dvdrental.models;
+import java.sql.Blob;
 import java.time.LocalDateTime;
 
 public class Staff {
@@ -9,7 +10,10 @@ public class Staff {
     //addressId
     String email;
     //storeId
-    String phone;
+    Boolean active;
+    String username;
+    String password;
     LocalDateTime lastUpdate;
-
+    Blob picture;
+    
 }

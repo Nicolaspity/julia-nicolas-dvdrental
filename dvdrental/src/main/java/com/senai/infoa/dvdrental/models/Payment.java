@@ -1,6 +1,13 @@
 package com.senai.infoa.dvdrental.models;
-import java.time.LocalDateTime;
+import java.sql.Blob;
 
 public class Payment {
     
+    int paymentId;
+    //custumerId
+    //staffId
+    //rentalId
+    Integer amount;
+    Blob picture;
+
 }

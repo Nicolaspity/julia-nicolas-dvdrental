@@ -1,11 +1,9 @@
 package com.senai.infoa.dvdrental.models;
 import java.time.LocalDateTime;
 
-public class Inventory {
+public class FilmActor {
     
-    int inventoryId;
+    //actorId
     //filmId
-    //storeId
     LocalDateTime lastUpdate;
-
 }
